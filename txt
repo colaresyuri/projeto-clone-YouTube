@@ -1,0 +1,69 @@
+<!-- 
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Clone</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#"><img src="logo.png" alt="Logo do YouTube"></a>
+      <form>
+        <input type="search" placeholder="Pesquisar">
+        <button type="submit"><img src="lupa.png" alt="Lupa"></button>
+      </form>
+      <ul>
+        <li><a href="#"><img src="sino.png" alt="Notificações"></a></li>
+        <li><a href="#"><img src="camera.png" alt="Criar"></a></li>
+        <li><a href="#"><img src="usuario.png" alt="Usuário"></a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <aside>
+      <ul>
+        <li><a href="#"><img src="home.png" alt="Início">Início</a></li>
+        <li><a href="#"><img src="tendencias.png" alt="Em alta">Em alta</a></li>
+        <li><a href="#"><img src="inscricoes.png" alt="Inscrições">Inscrições</a></li>
+        <li><a href="#"><img src="biblioteca.png" alt="Biblioteca">Biblioteca</a></li>
+        <li><a href="#"><img src="historico.png" alt="Histórico">Histórico</a></li>
+      </ul>
+    </aside>
+    <section>
+      <article>
+        <video src="video.mp4" controls poster="thumbnail.jpg"></video>
+        <h1>Título do vídeo</h1>
+        <p>Visualizações: 123.456 | Data: 01/01/2021</p>
+        <div>
+          <button><img src="like.png" alt="Like">123</button>
+          <button><img src="dislike.png" alt="Dislike">12</button>
+          <button><img src="compartilhar.png" alt="Compartilhar">Compartilhar</button>
+          <button><img src="salvar.png" alt="Salvar">Salvar</button>
+        </div>
+        <hr>
+        <h2>Nome do canal</h2>
+        <p>Inscritos: 12.345</p>
+        <button>Inscrito</button>
+        <p>Descrição do vídeo...</p> 
+      </article> 
+      <aside> 
+        <h3>Vídeos relacionados</h3> 
+         Repetir para cada vídeo relacionado 
+        <article> 
+            <a href="#"><img src="thumbnail.jpg" alt="Thumbnail do vídeo"></a> 
+            <h4>Título do vídeo</h4> 
+            <p>Nome do canal</p> 
+            <p>Visualizações: 123.456 | Data: 01/01/2021</p> 
+          </article> 
+        </aside> 
+      </section> 
+    </main> 
+    <footer> 
+      Colocar o conteúdo do rodapé 
+    </footer> 
+  </body> 
+  </html>
+  
+   -->
+
+

@@ -1,0 +1,143 @@
+main{
+    display:grid;
+    grid-template-areas:
+    "head head head"
+    "content content side"
+    "content content side"
+    "foot foot foot";
+    grid-template-rows: 30px auto;
+}
+body{
+    display: flexbox;
+    margin:0px;
+}
+header{
+    grid-area: head;
+    display: inline-flex;
+    background-color:#fff;
+    height: 100px;
+}
+button[type="submit"] {
+    background-color:rgb(245, 141, 141);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+header.menu {
+    justify-content: space-around;
+}
+article{
+    grid-area: content;
+    background-color:#FFF;
+    font-family: roboto;;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flexbox;
+    font-size: 14px;
+    
+}
+.dio{
+    width: 42px;
+    height: 42px;
+    border-radius: 42px;
+    background: url(<path-to-image>), white 50% / cover no-repeat;
+    display:inline;
+    margin: 10px;
+}
+article h2{
+    color: #000;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display:inline;
+}
+.gray{
+    font-size: 14px;
+    color: grey;
+}
+.ins{
+    color: #FFF;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style:normal;
+    font-weight: 600;
+    line-height:normal;
+    text-transform: uppercase;
+    background-color: red;
+    width: 159px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    display:inline;
+    text-align:center;
+    top: 5px;
+}
+.one{
+    padding: 16px;
+    text-align: center;
+}
+.two{
+    padding: 16px;
+    font-size: 12pt;
+    
+}
+.tree{
+    padding: 16px;
+    display: inline-flex;
+    font-size: 12pt;
+}
+.four{
+    padding: 16px;
+    color: #000;
+font-size: 14px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.five{
+    padding: 16px;
+    display: flex;
+width: 510px;
+flex-direction: column;
+color: #515151;
+font-size: 14px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+aside{
+    grid-area: side;
+    background-color: #fff;
+}
+.videos{
+    display: flex;
+    align-items: center;
+}
+.fig{
+    margin-right: 10px;
+}
+figcaption{
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer{
+    grid-area: foot;
+    background-color: #fff;
+    font-family:sans-serif;
+    font-size: 14px;
+}
